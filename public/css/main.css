@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root
+{
+    --gold: #ca9834;
+    --olive: #637246;
+    --olivedark: #394A32;
+}
+
+html, body
+{
+    background-color: var(--olive);
+    font-family: "Nunito", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: min(1.2rem, 5vw);
+}
+
+h1
+{
+    color: var(--gold);
+    font-weight: 800;
+}
+
+nav
+{
+    background-color: var(--olivedark);
+}
+
+footer
+{
+    background-color: var(--olivedark);
+}
+
+footer p 
+{
+    margin-bottom: 0;
+}
+
+.poster 
+{
+	width: 21%;
+	margin: 1rem;
+	display: inline-flex;
+    border-radius: 5px;
+    border-collapse: separate; 
+    opacity: 1;
+    background-color: transparent;
+}
+
+.poster:hover
+{
+    opacity: 75%;
+    width: 23%;
+    margin-block: -1rem;
+    margin-inline: 0.4rem;
+    transition: 0.15s ease-in-out;
+}
+
+.poster a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.poster-info
+{
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1rem 0rem 1rem;
+    opacity: 0;
+    font-size: 1rem;
+}
+
+.poster-info h1
+{
+    font-size: 1rem;
+    color: white;
+}
+
+.poster:hover .poster-info
+{
+    transition: 0.15s ease-in-out;
+    opacity: 1;
+}

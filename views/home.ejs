@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <%- include ("partials/head.ejs") %>
+    </head>
+    <body>
+        <%- include ("partials/header.ejs") %>
+
+        <main class="container text-center">
+            <article style="background-image: url(public/media/images/mountains.jpg); background-size: cover; background-position-y: 75%;" class="bg-dark text-white rounded py-4 my-3 shadow">
+                <br/>
+                <h2><%= title %></h2>
+                <p style="margin: auto 15% 1rem 15%">Integer sit amet ligula leo. Praesent fringilla convallis ex et dapibus. Morbi lacinia sollicitudin quam. Maecenas nec egestas velit. Praesent eu diam ut quam aliquet. Integer sit amet ligula leo. Praesent fringilla convallis ex et dapibus. Morbi lacinia sollicitudin quam. Maecenas nec egestas velit. Praesent eu diam ut quam aliquet.</p>
+                <button type="button" class="btn btn-warning">Click me, goddamn it!</button>
+            </article>
+
+            <article class="bg-dark text-white rounded my-3 p-5 shadow">
+                <!--Title-->
+                <h1>Star Wars Movies</h1>
+                <p>Click a movie below to view more information about it.</p>
+                <% for (var i = 0; i < movies.length; i++) { %>
+                        <div class="poster card">
+                            <a href="/starwarsep/<%= movies[i].episode_number %>">
+                                <img src="/public/media/images/starwars/<%= movies[i].poster %>" class="img-fluid" alt="<%= movies[i].title %>" />
+                                <div class="poster-info">
+                                    <h1><%= movies[i].title %></h1>
+                                    <p>View ></p>
+                            </a>
+                        </div>
+                    </div>
+                <% } %>
+            </article>    
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row text-light text-center py-3">
+                    <div class="col">
+                        <h4>Fusce feugiat placerat cursus</h4>
+                        <p>Aliquam erat volutpat. Phasellus eleifend gravida mauris, nec sagittis est fringilla sed. Sed quis viverra dui. Nam lacus dui, auctor nec suscipit a, vulputate vitae velit.</p>
+                    </div>
+                    <div class="col">
+                        <h4>Etiam et pulvinar ipsum</h4>
+                        <p>Duis congue vulputate tortor et efficitur. Nulla facilisi. Nam ut massa euismod, rhoncus arcu in, scelerisque tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                    <div class="col">
+                        <h4>Vestibulum ligula leo</h4>
+                        <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ante lacus, varius eget leo id, condimentum luctus dolor. Maecenas tincidunt velit tortor. Nunc luctus lectus ac mi viverra varius. Nulla facilisi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark text-light py-2">
+                <p class="container">© 2023 inkvoiid. All Rights Reserved</p>
+            </div>
+        </footer>
+        <%- include ("partials/scripts.ejs") %>
+    </body>
+</html>

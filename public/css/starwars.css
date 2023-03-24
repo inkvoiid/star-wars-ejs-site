@@ -1,0 +1,13 @@
+:root
+{
+    --gold: #d2d8db;
+    --olive: #838383;
+    --olivedark: #383838;
+}
+
+.swhero
+{
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

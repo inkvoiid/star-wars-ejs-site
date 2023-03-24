@@ -1,0 +1,189 @@
+{
+  "movies": [
+    {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_number": "1",
+      "main_characters": [
+        "Qui-Gon Jinn",
+        "Obi-Wan Kenobi",
+        "Anakin Skywalker",
+        "Padmé Amidala",
+        "Jar Jar Binks"
+      ],
+      "description": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
+      "poster": "ep1.png",
+      "hero_image": "ep1hero.png"
+    },
+    {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_number": "2",
+      "main_characters": [
+        "Anakin Skywalker",
+        "Padmé Amidala",
+        "Obi-Wan Kenobi",
+        "Yoda",
+        "Count Dooku"
+      ],
+      "description": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+      "poster": "ep2.png",
+      "hero_image": "ep2hero.png"
+    },
+    {
+      "title": "Star Wars: The Clone Wars",
+      "episode_number": "3",
+      "main_characters": [
+        "Anakin Skywalker",
+        "Obi-Wan Kenobi",
+        "Ahsoka Tano",
+        "Count Dooku",
+        "General Grievous"
+      ],
+      "description": "As the Clone Wars rage on, Anakin Skywalker and his Padawan Ahsoka Tano embark on a dangerous mission to rescue Jabba the Hutt's kidnapped son. Meanwhile, Jedi Master Obi-Wan Kenobi and the clone army continue to fight against the Separatist forces led by Count Dooku and General Grievous.",
+      "poster": "ep3.png",
+      "hero_image": "ep3hero.png"
+    },
+    {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_number": "4",
+      "main_characters": [
+        "Anakin Skywalker",
+        "Obi-Wan Kenobi",
+        "Padmé Amidala",
+        "Yoda",
+        "Emperor Palpatine"
+      ],
+      "description": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+      "poster": "ep4.png",
+      "hero_image": "ep4hero.png"
+    },
+    {
+      "title": "Solo: A Star Wars Story",
+      "episode_number": "5",
+      "main_characters": [
+        "Han Solo",
+        "Chewbacca",
+        "Lando Calrissian",
+        "Qi'ra",
+        "Beckett"
+      ],
+      "description": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+      "poster": "ep5.png",
+      "hero_image": "ep5hero.png"
+    },
+    {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_number": "6",
+      "main_characters": [
+        "Jyn Erso",
+        "Cassian Andor",
+        "K-2SO",
+        "Chirrut Îmwe",
+        "Baze Malbus",
+        "Director Krennic",
+        "Darth Vader"
+      ],
+      "description": "The Rebel Alliance makes a risky move to steal the plans for the Death Star, setting up the epic saga to follow.",
+      "poster": "ep6.png",
+      "hero_image": "ep6hero.png"
+    },
+    {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_number": "7",
+      "main_characters": [
+        "Luke Skywalker",
+        "Han Solo",
+        "Princess Leia Organa",
+        "Darth Vader",
+        "C-3P0",
+        "R2-D2",
+        "Chewbacca",
+        "Obi-Wan Kenobi"
+      ],
+      "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+      "poster": "ep7.png",
+      "hero_image": "ep7hero.png"
+    },
+    {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_number": "8",
+      "main_characters": [
+        "Luke Skywalker",
+        "Han Solo",
+        "Princess Leia Organa",
+        "Darth Vader",
+        "C-3P0",
+        "R2-D2",
+        "Chewbacca",
+        "Lando Calrissian",
+        "Boba Fett"
+      ],
+      "description": "Fleeing the evil Galactic Empire, the Rebels abandon their new base in an assault with the Imperial AT-AT walkers on the ice world of Hoth. Princess Leia, Han Solo, Chewbacca and the droid C-3PO escape in the Millennium Falcon, but are later captured by Darth Vader on Bespin. Meanwhile, Luke Skywalker and the droid R2-D2 follows Obi-Wan Kenobi's posthumous command, and receives Jedi training from Master Yoda on the swamp world of Dagobah. Will Skywalker manage to rescue his friends from the Dark Lord?",
+      "poster": "ep8.png",
+      "hero_image": "ep8hero.png"
+    },
+    {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_number": "9",
+      "main_characters": [
+        "Luke Skywalker",
+        "Han Solo",
+        "Princess Leia Organa",
+        "Darth Vader",
+        "C-3P0",
+        "R2-D2",
+        "Chewbacca",
+        "Lando Calrissian"
+      ],
+      "description": "After rescuing Han Solo from the palace of Jabba the Hutt, the Rebels attempt to destroy the second Death Star, while Luke Skywalker tries to bring his father back to the Light Side of the Force.",
+      "poster": "ep9.png",
+      "hero_image": "ep9hero.png"
+    },
+    {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_number": "10",
+      "main_characters": [
+        "Rey",
+        "Finn",
+        "Poe Dameron",
+        "Kylo Ren",
+        "Han Solo",
+        "Chewbacca",
+        "Leia Organa"
+      ],
+      "description": "Thirty years after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.",
+      "poster": "ep10.png",
+      "hero_image": "ep10hero.png"
+    },
+    {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_number": "11",
+      "main_characters": [
+        "Rey",
+        "Finn",
+        "Poe Dameron",
+        "Kylo Ren",
+        "Luke Skywalker",
+        "Leia Organa",
+        "Snoke"
+      ],
+      "description": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+      "poster": "ep11.png",
+      "hero_image": "ep11hero.png"
+    },
+    {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_number": "12",
+      "main_characters": [
+        "Rey",
+        "Finn",
+        "Poe Dameron",
+        "Kylo Ren",
+        "Leia Organa",
+        "Palpatine"
+      ],
+      "description": "The surviving Resistance faces the First Order once more as Rey, Finn and Poe Dameron's journey continues. With the power and knowledge of generations behind them, the final battle commences.",
+      "poster": "ep12.png",
+      "hero_image": "ep12hero.png"
+    }
+  ]
+}
